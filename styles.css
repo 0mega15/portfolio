@@ -1,0 +1,90 @@
+header {
+    background-image: url(images/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #3033d293;
+    color: #333;
+}
+
+img {
+    width: auto;
+    height: 45px;
+    margin-right: 10px;
+}
+
+li {
+    list-style-type: none;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.link{
+    text-decoration: none;
+    color: #c3ced2;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.competences-cv{
+    background-color: #f4f4f4c5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.presentation, .contact{
+    background-color: #f4f4f4c5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.programming-languages, .databases, .languages { 
+    display: flex; 
+    gap: 20px; 
+    align-items: center; 
+    justify-content: left;
+    margin: 0 10px; 
+}
+
+.programming-languages figure, .databases figure, .languages figure {
+    text-align: center;
+    margin: 0 10px;
+}
+
+.programming-languages figure img, .databases figure img, .languages figure img {
+    display: block;
+    margin: 0 20px;
+}
+
+#btn-realisation {
+    background-color: #4848b3; 
+    border: none; 
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center;
+    font-size: 16px; 
+    margin: 0px 20px; 
+    cursor: pointer; 
+    border-radius: 8px;
+}
+
+#btn-realisation:hover {
+    background-color: #1278b7;
+    transform: scale(1.05);
+}
