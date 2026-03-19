@@ -1,94 +1,91 @@
 <!DOCTYPE html>
-<html lang="fr"></html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil - Mon Site</title>
-    <link rel="stylesheet" href="styles.css">
-<script src="script.js" defer></script>
-</head>
-<body>
-
-    <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#" class="link">Accueil</a>
-                    <a href="diplome.html" class="link">Diplomes</a>
-                    <a href="realisations.html" class="link">Réalisations</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-    <section class="presentation">
-        <img src="images/photo.jpg" alt="Photo de Enzo Ghysbrecht">
-            <h1>Étudiant en BTS SIO en seconde année</h1>
-            <h2>Enzo Ghysbrecht</h2>
-            <p>Bienvenue sur mon site personnel où je partage mes projets et réalisations en tant qu'étudiant en BTS SIO.</p>
-    </section>
-
-    <section class="competences-cv">
-        <section class="competences">
-            <h2>Compétences</h2>
-            <ul>
-                <h3>Programmation</h3>
-                <li class="programming-languages">
-                    <figure>
-                        <img src="images/html.png">
-                        <figcaption>HTML</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/css.png">
-                        <figcaption>CSS</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/javascript.png">
-                        <figcaption>JavaScript</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/python.png">
-                        <figcaption>Python</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/csharp.png">
-                        <figcaption>C#</figcaption>
-                    </figure>
-                </li>
-                <h3>Gestion de base de données</h3>
-                <li class="databases">
-                    <figure>
-                        <img src="images/mysql.jpg">
-                        <figcaption>MySQL</figcaption>
-                    </figure>
-                </li>
-                <h3>Linguistique</h3>
-                <li class="languages">
-                    <figure>
-                        <img src="images/english-flag.png">
-                        <figcaption>Anglais</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/french-flag.png">
-                        <figcaption>Français</figcaption>
-                    </figure>
-                </li>
-                <h3>Réalisations</h3>
-                <button onclick="location.href='realisations.html'" id="btn-realisation"> >>> Voir mes réalisations <<< </button>
-                
-            </ul>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Accueil - Mon Site</title>
+        <link rel="stylesheet" href="css_styles/base_styles.css">
+        <link rel="stylesheet" href="css_styles/styles_index.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li class="header-list">
+                        <a href="index.html" class="link">Accueil</a>
+                        <a href="diplome.html" class="link">Diplomes</a>
+                        <a href="realisations.html" class="link">Réalisations</a>
+                        <a href="Epreuve_E5.html" class="link">Épreuve E5</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="presentation">
+            <img src="images/photo2.jpg" alt="Photo de Enzo Ghysbrecht" id="photo-profile">
+                <h1>Étudiant en BTS SIO en seconde année</h1>
+                <h2>Enzo Ghysbrecht</h2>
+                <p>Bienvenue sur mon site personnel où je partage mes projets et réalisations en tant qu'étudiant en BTS SIO.</p>
         </section>
-        <section class="cv">
-            <h2>Curriculum Vitae</h2>
-            <img src="images/cv_preview.png" alt="Aperçu du CV">
-            <p><a href="documents/cv" class="button">Cliquez ici pour télécharger mon CV</a></p>
+        <section class="competences-cv">
+            <section class="competences">
+                <h2>Compétences</h2>
+                <ul>
+                    <h3>Programmation</h3>
+                    <li class="programming-languages">
+                        <figure>
+                            <img src="images/html.png">
+                            <figcaption>HTML</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/css.png">
+                            <figcaption>CSS</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/javascript.png">
+                            <figcaption>JavaScript</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/python.png">
+                            <figcaption>Python</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/csharp.png">
+                            <figcaption>C#</figcaption>
+                        </figure>
+                    </li>
+                    <h3>Gestion de base de données</h3>
+                    <li class="databases">
+                        <figure>
+                            <img src="images/mysql.jpg">
+                            <figcaption>MySQL</figcaption>
+                        </figure>
+                    </li>
+                    <h3>Linguistique</h3>
+                    <li class="languages">
+                        <figure>
+                            <img src="images/english-flag.png">
+                            <figcaption>Anglais</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="images/french-flag.png">
+                            <figcaption>Français</figcaption>
+                        </figure>
+                    </li>
+                    <h3>Réalisations</h3>
+                    <button onclick="location.href='realisations.html'" id="btn-link"> >>> Voir mes réalisations <<< </button>
+                </ul>
+            </section>
+            <section class="cv">
+                <h2>Curriculum Vitae</h2>
+                <img src="images/cv_preview.png" alt="Aperçu du CV">
+                <p><a href="documents/cv" id="btn-link" download>Télécharger mon CV</a></p>
+            </section>
         </section>
-    </section>
-
-    <section class="contact">
-        <h2>Contacts et Réseaux</h2>
-        <p>Email : <a href="mailto:enzoghysbrecht@gmail.com">enzoghysbrecht@gmail.com</a></p>
-        <p>GitHub : <a href="https://github.com/0mega15">0mega15</a></p>
-    </section>
-</body>
+        <section class="contact">
+            <h2>Contacts et Réseaux</h2>
+            <p>Email : <a href="mailto:enzoghysbrecht@gmail.com">enzoghysbrecht@gmail.com</a></p>
+            <p>GitHub : <a href="https://github.com/0mega15">0mega15</a></p>
+            <p>LinkedIn : <a href="https://www.linkedin.com/in/enzo-ghysbrecht-608a79330">Enzo Ghysbrecht</a></p>
+        </section>
+    </body>
 </html>

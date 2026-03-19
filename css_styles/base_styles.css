@@ -1,0 +1,31 @@
+header {
+    background-image: url(../images/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #373ac2e2;
+    color: #373637;
+}
+
+li{
+    list-style-type: none;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.link{
+    text-decoration: none;
+    color: #c3ced2;
+    font-weight: bold;
+    font-size: 20px;
+}

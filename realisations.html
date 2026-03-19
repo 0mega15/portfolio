@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes réalisations</title>
+    <link rel="stylesheet" href="css_styles/base_styles.css">
+    <link rel="stylesheet" href="css_styles/styles_realisations.css">
+    <script src="scripts_realisations.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html" class="link">Accueil</a>
+            <a href="diplome.html" class="link">Diplomes</a>
+            <a href="realisations.html" class="link">Réalisations</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <h1>Vous retrouverez ici toutes mes réalisations, qu'il s'agisse de projets personnels ou
+      de réalisations académiques.</h1>
+    </section>
+    <section>
+      <h2>
+        Projets personnels :
+      </h2>
+      <div class="projects-gallery">
+        <div class="item">
+          <img src="images/portfolioPreview.png" alt="portfolioPreview">
+          <button class="btn" onclick="ouvrirModal('Portfolio')">Site Web Portfolio</button>
+        </div>
+        <div class="item">
+          <img src="images/MonmonIaPreview.png" alt="MonmonIaPreview">
+          <button class="btn" onclick="ouvrirModal('MonmonIa')">MonmonIa</button>
+        </div>
+      </div>
+      <h2>
+        Projets académiques :
+      </h2>
+      <div class="projects-gallery">
+        <div class="item">
+          <img src="images/CoachPreview.png" alt="ApplicationPreview">
+          <button class="btn" onclick="ouvrirModal('Coach')">Application mobile coach</button>
+        </div>
+
+        <div class="item">
+          <img src="images/Mediatek68Preview.png" alt="Mediatek86Preview">
+          <button class="btn" onclick="ouvrirModal('Mediatek68')">Projet Mediatek86</button>
+        </div>
+
+        <div class="item">
+          <img src="images/MediatekFormationPreview.png" alt="MediatekFormationPreview">
+          <button class="btn" onclick="ouvrirModal('MediatekFormation')">Projet Mediatek Formation</button>
+        </div>
+      </div>
+
+      <div class="projects-gallery">
+        <div class="item">
+          <img src="#" alt="RestChocolateinPreview">
+          <button class="btn" onclick="ouvrirModal('RestChocolatein')">API RestChocolatein</button>
+        </div>
+      </div>
+
+      <h2>
+        Projets de stage :
+      </h2>
+      <div class="projects-gallery">
+
+        <div class="item">
+          <img src="#" alt="Pas de logo disponible">
+          <button class="btn" onclick="ouvrirModal('AudetConseil')">Stage chez Audet Conseil</button>
+        </div>
+
+        <div class="item">
+          <img src="images/E2CDordogneLogo.png" alt="E2C Dordogne Logo">
+          <button class="btn" onclick="ouvrirModal('E2CDordogne')">Stage chez E2C Dordogne</button>
+        </div>
+      </div>
+    </section>
+    <!-- Modal Structure -->
+    <div id="Portfolio" class="modal" onclick="fermerModal('Portfolio')">
+      <div class="modal-content" onclick="event.stopPropagation()">
+        <span class="close" onclick="fermerModal('Portfolio')">&times;</span>
+        <h2>Site Web Portfolio</h2>
+        <!-- CONTEXTE -->
+        <section class="bloc">
+          <h3>Contexte</h3>
+          <p>
+            Projet personnel réalisé durant mon BTS SIO afin de disposer
+            d’un support de présentation professionnel pour mes stages
+            et poursuites d’études.
+          </p>
+        </section>
+        <!-- FONCTIONNALITÉS -->
+        <section class="bloc">
+          <h3>Fonctionnalités</h3>
+          <ul class="liste-modal">
+            <li>Présentation des compétences et du parcours</li>
+            <li>Page réalisations avec fenêtres modales</li>
+          </ul>
+        </section>
+        <!-- TECHNIQUE -->
+        <div class="modal-body">
+          <div class="modal-left">
+            <h3>Compétences mobilisées</h3>
+            <ul class="liste-modal">
+              <li>HTML5 sémantique</li>
+              <li>CSS Flexbox / Grid</li>
+              <li>JavaScript DOM</li>
+              <li>Organisation multi-pages</li>
+            </ul>
+            <h3>Difficultés</h3>
+            <ul class="liste-modal">
+              <li>Gestion du responsive</li>
+              <li>Modales sans framework</li>
+              <li>Organisation CSS</li>
+            </ul>
+          </div>
+          <div class="modal-right">
+            <img src="images/portfolioPreview.png">
+            <p class="legende">Page d’accueil du site</p>
+          </div>
+        </div>
+        <!-- LIENS -->
+        <div class="modal-links">
+          <a href="index.html" class="btn">Voir le site</a>
+          <a href="#" class="btn">GitHub du projet</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="E2CDordogne" class="modal" onclick="fermerModal('E2CDordogne')">
+      <div class="modal-content" onclick="event.stopPropagation()">
+        <span class="close" onclick="fermerModal('E2CDordogne')">&times;</span>
+        <h2>Stage chez E2C Dordogne</h2>
+        <!-- CONTEXTE -->
+        <section class="bloc">
+          <h3>Contexte</h3>
+          <p>
+            Stage de 5 semaines réalisé en entreprise dans le cadre de ma formation BTS SIO.
+          </p>
+        </section>
+        <!-- MISSIONS -->
+        <section class="bloc">
+          <h3>Missions réalisées</h3>
+          <ul class="liste-modal-button">
+            <li>Maintenance et refonte complète du site web de l'entreprise <a href="pages_situations/E2CDordogne/page1_E2C.html">Plus d'info</a></li>
+            <li>Développement  d'un agent IA automatique au service des besoins internes <a href="pages_situations/E2CDordogne/page2_E2C.html">Plus d'info</a></li>
+            <li>Mettre à disposition des utilisateurs un service informatique <a href="pages_situations/E2CDordogne/page4_E2C.html">Plus d'info</a></li>
+            <li>Documentation des processus et des solutions mises en place<a href="pages_situations/E2CDordogne/page3_E2C.html">Plus d'info</a></li>
+          </ul>
+        </section>
+        <!-- TECHNIQUE -->
+        <section class="bloc">
+          <h3>Compétences professionnelles mobilisées</h3>
+          <ul class="liste-modal">
+            <li>Services Google (AppScript, Sheets, Drive, Forms, Docs)</li>
+            <li>N8N pour le développement de l'agent IA</li>
+            <li>Services OpenAI</li>
+            <li>Site W</li>
+            <li>Make.IA</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>

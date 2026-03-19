@@ -1,39 +1,7 @@
-header {
-    background-image: url(images/header-bg.jpg);
-    background-position: center;
-    background-size: cover;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 40px;
-    background-color: #3033d293;
-    color: #333;
-}
-
 img {
     width: auto;
     height: 45px;
     margin-right: 10px;
-}
-
-li {
-    list-style-type: none;
-    margin: 10px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.link{
-    text-decoration: none;
-    color: #c3ced2;
-    font-weight: bold;
-    font-size: 20px;
 }
 
 .competences-cv{
@@ -72,7 +40,7 @@ li {
     margin: 0 20px;
 }
 
-#btn-realisation {
+#btn-link {
     background-color: #4848b3; 
     border: none; 
     color: white; 
@@ -84,7 +52,15 @@ li {
     border-radius: 8px;
 }
 
-#btn-realisation:hover {
+#btn-link:hover {
     background-color: #1278b7;
     transform: scale(1.05);
+}
+
+#photo-profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    object-fit:cover;
+    margin-right: 20px;
 }
