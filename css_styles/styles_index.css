@@ -4,6 +4,11 @@ img {
     margin-right: 10px;
 }
 
+.cv-image {
+    height: auto;
+    width: 400px; 
+}
+
 .competences-cv{
     background-color: #f4f4f4c5;
     padding: 20px;
