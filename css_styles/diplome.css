@@ -1,0 +1,41 @@
+section{
+  background-color: #f4f4f4c5;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.bac-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.bac-text {
+    flex: 1;
+}
+
+.bac-image img {
+    max-width: 300px; /* ajuste selon ton besoin */
+    height: auto;
+}
+
+#btn-link {
+    background-color: #4848b3; 
+    border: none; 
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center;
+    font-size: 16px; 
+    margin: 0px 20px; 
+    cursor: pointer; 
+    border-radius: 8px;
+}
+
+#btn-link:hover {
+    background-color: #1278b7;
+    transform: scale(1.05);
+}
