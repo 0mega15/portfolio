@@ -49,12 +49,12 @@
           <img src="images/CoachPreview.png" alt="ApplicationPreview">
           <button class="btn" onclick="ouvrirModal('Coach')">Application mobile coach</button>
         </div>
-
-        <div class="item">
-          <img src="images/Mediatek68Preview.png" alt="Mediatek86Preview">
-          <button class="btn" onclick="ouvrirModal('Mediatek68')">Projet Mediatek86</button>
-        </div>
         -->
+        <div class="item">
+          <img src="images/mediatekDocumentPreview.png" alt="MediatekDocumentPreview">
+          <button class="btn" onclick="ouvrirModal('MediatekDocument')">Projet MediatekDocument</button>
+        </div>
+        
         <div class="item">
           <img src="images/MediatekFormationPreview.png" alt="MediatekFormationPreview">
           <button class="btn" onclick="ouvrirModal('MediatekFormation')">Projet Mediatek Formation</button>
@@ -235,11 +235,50 @@
         </section>
         <!-- LIENS -->
         <div class="modal-links">
-          <a href="#" class="btn">Voir le site</a>
+          <a href="https://qdwpop.n0c.world/mediatekformation/public/" class="btn">Voir le site</a>
           <a href="https://github.com/0mega15/MediatekFormation" class="btn">GitHub du projet</a>
           <a href="pages_situations/Mediatek Formation/Atelier 1.html" class="btn">Plus d'informations</a>
         </div>
       </div>
+    </div>
 
+    <div id="MediatekDocument" class="modal" onclick="fermerModal('MediatekDocument')">
+      <div class="modal-content" onclick="event.stopPropagation()">
+        <span class="close" onclick="fermerModal('MediatekDocument')">&times;</span>
+        <h2>Projet Mediatek Document</h2>
+        <!-- CONTEXTE -->
+        <section class="bloc">
+          <h3>Contexte</h3>
+          <p>Parmi les marchés gagnés récemment par ITS 86, on trouve celui de la gestion du parc informatique du réseau des médiathèques de la Vienne, MediaTek86, ainsi que l'informatisation de plusieurs activités internes des médiathèques ou en lien avec le public. Les médiathèques mettent à la disposition de leurs adhérents des documents sur divers supports (papier, cédérom, livre numérique, DVD, etc.). Dans chacun des lieux, les documents proposés s'adressent aussi bien à un public adulte qu'à un jeune public.</p>
+          <p>Certains documents sont uniquement consultables sur place : c’est le cas des revues ou journaux (support papier), des logiciels éducatifs ou de jeux (support cédérom). Les livres peuvent être empruntés sous certaines conditions.</p>
+          <p>Dans chaque médiathèque, il existe plusieurs types d’employés : ceux du service Administratif qui gèrent les achats de livres, de matériel divers, ceux du service Médiation culturelle qui organisent les expositions, les campagnes d’information et de communication sur les activités de la médiathèque, et enfin les employés du service Prêt qui s’occupent du prêt, du rangement dans les rayons, de l’étiquetage des documents.</p>
+          <p>Le réseau des médiathèques de la Vienne, MediaTek86 a pour rôle de fédérer les prêts de livres, DVD et CD et de développer la médiathèque numérique pour l’ensemble des médiathèques du département.</p>
+          <p>Afin de donner plus d’attractivité aux médiathèques, MediaTek86 veut se développer selon deux axes :</p>
+          <p>enrichir ses services en offrant aux adhérents la possibilité d’emprunter des films en VOD ;</p>
+          <p>proposer, en complément de l’activité principale de la médiathèque, des formations aux outils numériques et des autoformations en ligne.</p>
+          <p>MediaTek86 gère le portail web unique, un véritable catalogue en ligne qui permet aux adhérents de réserver et d’emprunter plus de 200 000 documents (livres, journaux, CD, DVD, jeux), revues (400 titres de périodiques en ligne) et ressources numériques répartis dans différents lieux. MediaTek86 est un réseau qui regroupe les responsables de chaque médiathèque, un chef de projet numérique, une chargée de communication numérique et un infographiste. Les projets numériques sont pilotés par le chef de projet numérique qui est chargé de la maîtrise d’ouvrage (MOA) auprès des ESN auxquelles MediaTek86 fait appel pour la gestion du parc informatique des médiathèques, l’infogérance de son infrastructure système et réseau hébergée dans le cloud et le développement de son portail web et de ses applications internes.</p>
+        </section>
+        <!-- FONCTIONNALITÉS -->
+        <section class="bloc">
+          <h3>Fonctionnalités</h3>
+          <ul class="liste-modal"> 
+            <li>Gestion des documents et de leurs exemplaires</li>
+            <li>Interface d'administration pour la gestion des données</li>
+          </ul>
+        </section>
+        <!-- TECHNIQUE -->
+        <section class="bloc">
+          <h3>Outils mobilisés</h3>
+          <ul class="liste-modal">
+            <li>C#, PHP</li>
+            <li>Visual Studio 2022, NetBeans, phpMyAdmin</li>
+            <li>Base de données (ex: MySQL)</li>
+          </ul>
+        </section>
+        <!-- LIENS -->
+        <div class="modal-links">
+          <a href="pages_situations/Mediatek Formation/Atelier 2.html" class="btn">Plus d'informations</a>
+          <a href="https://github.com/0mega15/MediaTekDocuments" class="btn">GitHub du projet</a>
+        </div>
   </body>
 </html>
